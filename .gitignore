@@ -1,0 +1,4 @@
+quran-tajweed-backend/.env
+quran-tajweed/node_modules
+__pycache__/
+dist/
