@@ -1300,7 +1300,7 @@ function App() {
     formData.append("expected_text", expectedWordsFlat.join(" "));
 
     try {
-      const response = await fetch("http://127.0.0.1:8000/api/analyze-audio", { method: "POST", body: formData });
+      const response = await fetch("https://quran-ai-g9mz.onrender.com/api/analyze-audio", { method: "POST", body: formData });
       const data = await response.json();
 
       if (data.status === "success") {
